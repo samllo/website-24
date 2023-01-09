@@ -1,7 +1,8 @@
 @font-face {
-  font-family: 'chicagoflfregular';
-  src: url('assets/fonts/ProtoGroteskWeb-Regular.ttf') format('woff2'),
-       url('/assets/chicagoflf-webfont.woff') format('woff');
+  font-family: 'ProtoGrotesk';
+  src: url('assets/fonts/ProtoGroteskWeb-Regular.ttf') format('ttf'),
+      url('assets/fonts/ProtoGroteskWeb-Regular.woff2') format('woff2'),
+      url('assets/fonts/ProtoGroteskWeb-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,3 +12,11 @@ body{
   background-color: blue;
 }
 
+
+h1{
+  font-family: 'ProtoGrotesk';
+}
+
+.textClass{
+  color: green
+}
