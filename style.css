@@ -23,7 +23,11 @@ html,body{
 
 body{
   background-color: #F1FAEE;
-  
+}
+
+
+a {
+  all: unset;
 }
 
 #logo{
